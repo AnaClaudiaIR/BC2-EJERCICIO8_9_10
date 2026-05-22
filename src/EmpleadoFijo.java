@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class EmpleadoFijo extends Empleado {
+    public EmpleadoFijo(String nombre, double salarioBase) {
+        super(nombre, salarioBase);
+    }
 
-public class EmpleadoFijo {
+    @Override
+    public double calcularSalario(int numeroDias) {
+        return super.calcularSalario(numeroDias);
+    }
 }
